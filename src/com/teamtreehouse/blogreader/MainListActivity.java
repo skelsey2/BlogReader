@@ -49,6 +49,8 @@ public class MainListActivity extends ListActivity {
         
         mProgressBar = (ProgressBar) findViewById(R.id.progressBar1);
         
+        //TESTING UPLOAD TO GIT?!?!?
+        
         if (isNetworkAvailable()) {
         	mProgressBar.setVisibility(View.VISIBLE);
         	GetBlogPostsTask getBlogPostsTask = new GetBlogPostsTask();
